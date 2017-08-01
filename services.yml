@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+
+  service_a:
+    image: busybox
+    
+  service_b:
+    extends: service_a
